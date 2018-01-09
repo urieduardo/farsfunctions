@@ -1,0 +1,19 @@
+Package: farsfunctions
+Type: Package
+Title: Accident locations by years and US state
+Version: 0.1.0
+Date: 2018-01-08
+Depends: R (>= 3.0.0)
+imports: maps, dplyr, tidyr, graphics
+Author: Uri Ramirez
+Maintainer: Uri Ramirez <urieduardo@gmail.com>
+Description: A set of functions for summarizing and visualizing accident locations and years in the US
+License: CCO
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/urieduardo/farsfunctions
+RoxygenNote: 6.0.1
+Suggests: testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
